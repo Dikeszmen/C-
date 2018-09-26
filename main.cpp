@@ -1,17 +1,11 @@
 #include <iostream>
-
-using namespace std;
-
-int main()
-{
-    #include <iostream>
+#include <iostream>
 #include <string>
 #include <string.h>
 #include "header/vehicle.h"
 #include "header/logic.h"
 
 using namespace std;
-//using namespace VALAMI;
 
 int main(int argc,char *argv[])
 {
@@ -126,5 +120,3 @@ int main(int argc,char *argv[])
         FruitObj.pear=FruitObj.apple+FruitObj.banana+FruitObj.mellon;
     }
 */
-    return 0;
-}

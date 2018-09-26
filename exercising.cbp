@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="header/logic.h" />
+		<Unit filename="header/one.h" />
+		<Unit filename="header/vehicle.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="source/logic.cpp" />
+		<Unit filename="source/one.cpp" />
+		<Unit filename="source/vehicle.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />

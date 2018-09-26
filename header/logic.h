@@ -2,7 +2,8 @@
 #define LOGIC_H_INCLUDED
 #include "vehicle.h"
 #include <vector>
-
+#include <list>
+#define MAXN 100
 typedef struct bus
 {
     int can;
@@ -28,6 +29,16 @@ class backend
 }Backend;
 
 */
+
+typedef enum rangs
+{
+    operating,
+    student,
+    middle_boss,
+    boss,
+    admin
+
+}Rang;
 
 class tricky_series
 {

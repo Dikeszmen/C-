@@ -1,4 +1,5 @@
 #include <iostream>
+#include "../header/one.h"
 
 fruits::fruits()
 {
@@ -14,6 +15,7 @@ process::process()
     this->for_child=0;
     this->for_forage=0;
 }
+/*
 int process::just_one_kind(int &somefruit,int processing_mode)
 {
     if(!somefruit)
@@ -23,7 +25,7 @@ int process::just_one_kind(int &somefruit,int processing_mode)
     }
     if(processing_mode==)
 }
-
+*/
 template <typename diff>
 diff Max_Diff(diff x, diff y)
 {

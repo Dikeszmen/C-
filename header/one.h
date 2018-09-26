@@ -31,7 +31,7 @@ class process
         int raw;            //nyers
         int cooked;
         process();
-        int just_one_kind(int &somefruit);
+        //int just_one_kind(int &somefruit);
         int mixed_some_kind();
         int all_of_them();
         ~process();

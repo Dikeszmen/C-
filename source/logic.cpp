@@ -1,9 +1,11 @@
 #include <iostream>
 #include <stdlib.h>
+#include <iterator>
 #include <sstream>
 #include <string>
 #include <string.h>
 #include <vector>
+#include "../header/logic.h"
 #define TRUE 1
 
 using namespace std;
