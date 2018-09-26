@@ -28,6 +28,62 @@ class backend
 }Backend;
 
 */
+
+class tricky_series
+{
+    //int tomb[]={7,15,32,67,138,281};
+    int n_element_of_palindromes;
+    vector<string> palindromes;
+    vector <int> ab;
+    vector<string> sab;
+    list<string> listForString;
+    string s;
+
+public:
+    tricky_series();
+    void argGiven(int n);
+    tricky_series(int n);
+    void convertListToVector();
+    void stringToInt(int i);
+    void maxvalueOfTwoNumbers();
+    //int find_N_elementsOfSeries(int Nth);
+    void isPalindrome();
+};
+
+class initializing
+{
+    void syslogInit();
+    int serialInit();
+};
+
+
+class user
+{
+    int password;
+    Rang rangOfUser;
+
+public:
+    string name;
+
+};
+
+class rooms
+{
+    int numberOfRooms;
+    int joinable;
+    int setupRooms();
+};
+
+
+class room: public rooms
+{
+    int numberOfLights;
+
+
+public:
+    string RoomName;
+};
+
 void nameNumberDou();
 
 char *CAT(char *str1,char const *str2);
