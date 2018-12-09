@@ -85,9 +85,9 @@ int sampleFinderByCharSample(string s1,char *sample)
 VALAMI::dateclass::dateclass(Datum *date)
 {
     pointer=new char[10];
-    Date.year=date->year;
-    Date.months=date->months;
-    Date.days=date->days;
+    this->year=date->year;
+    this->months=date->months;
+    this->days=date->days;
     cout<<"Size of Date:"<<sizeof(*date)<<endl;
     printDate(date);
 }
